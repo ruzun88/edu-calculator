@@ -15,7 +15,9 @@ public class CalculatorTest {
 
 	@Test
 	public void testSubtract() {
-		fail("Not yet implemented");
+		Calculator calculator = new Calculator();
+		int result = calculator.minus(2, 1);
+		assertEquals(1,  result);
 	}
 
 	@Test
