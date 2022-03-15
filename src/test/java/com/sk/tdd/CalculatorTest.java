@@ -22,7 +22,9 @@ public class CalculatorTest {
 
 	@Test
 	public void testMuliply() {
-		fail("Not yet implemented");
+		Calculator calculator = new Calculator();
+		int result = calculator.multiply(2, 3);
+		assertEquals(6,  result);
 	}
 
 	@Test
