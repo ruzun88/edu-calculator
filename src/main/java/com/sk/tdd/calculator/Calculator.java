@@ -1,4 +1,4 @@
-package com.sk.tdd;
+package com.sk.tdd.calculator;
 
 public class Calculator {
 

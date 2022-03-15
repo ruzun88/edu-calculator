@@ -1,8 +1,10 @@
-package com.sk.tdd;
+package com.sk.tdd.calculator;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.sk.tdd.calculator.Calculator;
 
 public class CalculatorTest {
 
