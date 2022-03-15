@@ -29,7 +29,9 @@ public class CalculatorTest {
 
 	@Test
 	public void testDevide() {
-		fail("Not yet implemented");
+		Calculator calculator = new Calculator();
+		int result = calculator.devide(6, 3);
+		assertEquals(2,  result);
 	}
 
 }
