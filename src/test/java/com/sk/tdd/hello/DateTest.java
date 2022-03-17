@@ -20,5 +20,10 @@ public class DateTest {
 	public void testTimestamp() {
 		assertTrue(new Date().getTime() > 16473019183L);
 	}
+	
+	@Test
+	public void test2() {
+		assertTrue(true);
+	}
 
 }
